@@ -3,8 +3,8 @@ import requests
 # Function to fetch recipes based on user input
 def fetch_recipes(food_category, from_index):
     # Replace 'YOUR_APP_ID' and 'YOUR_API_KEY' with your actual Edamam API credentials
-    app_id = '6caff4e6'
-    api_key = '8b9a7c2ed9ad88d54e8ae13b88bbf7a3'
+    app_id = 'API-ID'
+    api_key = 'API-KEY'
     base_url = 'https://api.edamam.com/search'
     params = {
         'q': food_category,
